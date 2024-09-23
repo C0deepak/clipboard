@@ -39,7 +39,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ![Screenshot of Home Page](public/images/screenshot1.png)  
 *Welcome to Clipboard, Manage tasks with ease.*
 
-![Screenshot of Task Page](public/images/screenshot1.png)  
+![Screenshot of Task Page](public/images/screenshot2.png)  
 *Manage your tasks efficiently with our intuitive interface, Easily organize tasks with our drag-and-drop Kanban board.*
 
 ![Screenshot of Add Task Form](public/images/screenshot3.png)  
