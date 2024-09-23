@@ -183,12 +183,12 @@ const TaskListing = ({ tasks, loading, onStatusChange, onPriorityChange, onSortC
                                 <TableRow key={task.id}>
                                     <TableCell className="font-medium">{task.title}</TableCell>
                                     <TableCell>
-                                        <span className={`inline-flex items-center text-xs px-2 py-1 rounded-full capitalize ${getBadgeStyles('status', task.status)}`}>
+                                        <span className={`inline-flex items-center text-xs px-2 py-1 rounded-full ${getBadgeStyles('status', task.status)}`}>
                                             {getDisplayText('status', task.status)}
                                         </span>
                                     </TableCell>
                                     <TableCell>
-                                        <span className={`inline-flex items-center text-xs px-2 py-1 rounded-full capitalize ${getBadgeStyles('priority', task.priority)}`}>
+                                        <span className={`inline-flex items-center text-xs px-2 py-1 rounded-full ${getBadgeStyles('priority', task.priority)}`}>
                                             {getDisplayText('priority', task.priority)}
                                         </span>
                                     </TableCell>

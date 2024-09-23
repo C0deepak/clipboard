@@ -105,7 +105,7 @@ const TaskDnD = ({ tasks, updateTaskStatus }) => {
             </CardHeader>
             <CardContent>
                 <DragDropContext onDragEnd={handleOnDragEnd}>
-                    <div className="grid grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         {['TODO', 'PROGRESS', 'COMPLETED'].map((status) => (
                             <StrictModeDroppable droppableId={status} key={status} type='group'>
                                 {(provided) => (
